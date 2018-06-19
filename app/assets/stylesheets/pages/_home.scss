@@ -1,1 +1,35 @@
 // Specific CSS for your home-page
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://picsum.photos/1200/800?image=539");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 70px;
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      color: white;
+      font-family: 'Abel';
+      font-size: 19px;
+      text-decoration: none;
+    }
+    .separator {
+      margin-left: 7px;
+      margin-right: 7px;
+    }
+  }
+}
+
+

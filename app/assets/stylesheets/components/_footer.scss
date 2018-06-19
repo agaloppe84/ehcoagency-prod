@@ -1,0 +1,13 @@
+footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(20,20,23);
+  .left-content {
+    width: 70%;
+    color: white;
+  }
+  .right-content {
+    width: 30%;
+  }
+}
